@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "har-validator": "^5.1.5",
+    "telenode": "^0.0.3",
+    "uuid": "^11.1.0"
+  },
+  "name": "scheduler_service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themilho/Scheduler-Service-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/themilho/Scheduler-Service-Bot/issues"
+  },
+  "homepage": "https://github.com/themilho/Scheduler-Service-Bot#readme",
+  "description": ""
+}
