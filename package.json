@@ -1,13 +1,10 @@
 {
   "dependencies": {
     "axios": "^1.9.0",
-    "body-parser": "^2.2.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "har-validator": "^5.1.5",
     "nodemon": "^3.1.10",
-    "telenode": "^0.0.3",
-    "uuid": "^11.1.0"
+    "telegraf": "^4.16.3"
   },
   "name": "scheduler_service",
   "version": "1.0.0",
