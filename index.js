@@ -2,15 +2,17 @@ require ("dotenv").config();
 
 const express = require("express");
 const axios = require("axios");
-const {Telegraf} = require("telegraf");
+const {Telegraf, Markup} = require("telegraf");
 const {message} = require("telegraf/filters");
+const {urlNgrok, botToken} = process.env
 
+const bot = new Telegraf(botToken)
 const app = express();
 app.use(express.json())
+const telegramApi = `https://api.telegram.org/bot${botToken}`
 
-const bot = new Telegraf(process.env.BOT_TOKEN)
-bot.start((ctx) => ctx.reply('Bem-vindo!'))
-bot.launch()
+// const webHookUrl = urlNgrok + botToken
+
 
 
 app.listen(process.env.PORT || 3000, async () => {
